@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: weatherapi
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+weather:
+  api:
+    key: 51a5e82470538ba175dd4d8280e536a4
+  executor:
+    thread-pool-size: 25
+
+server:
+  tomcat:
+    threads:
+      max: 200
+
