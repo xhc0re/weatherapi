@@ -10,7 +10,7 @@ This project is a Weather API for displaying city temperatures. The application 
 - Fetches current temperatures for all cities and updates the database.
 - REST API to see results, delete all results, and query new temperatures.
 - REST API GET queries support sorting and paging.
-- Automated scheduled task to update weather data daily (optional).
+- Automated scheduled task to update weather data daily.
 - Dockerfile to run the application as a Docker container.
 
 ## Requirements
